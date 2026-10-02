@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Dika (Portofolio)</title> 
+    </head>
+    <body>
+        <nav class="navigasi">
+            <div class="logo-container">
+            <p id="emot">👨🏼‍💻</p>
+            <p class="teks-nav">Profil</p>
+        </div>
+        <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+            <div class="menu">
+            <a href="index.html">Beranda</a>
+            <a href="#Profil">Profil Singkat</a>
+            <a href="#Tentang">Tentang Saya</a>
+            <a href="#Skil">Skill</a>
+            <a href="#Kontak">Kontak</a>
+            </div>
+        </nav>
+        <header id="Profil">
+            <div class="Profil">
+            <img src="Dika.jpeg" alt="Profil" class="gambar-profil">
+            <div class="tentang">
+                <h1>Saya Dika</h1>
+                <h2>Seorang Frontend Web Developer yang suka membangun web interaktif dan responsif.</h2>
+            </div>
+        </div>
+        </header>
+        <article id="Tentang">
+            <div class="Posisi-aja">
+            <div class="teks-tentang">
+            <h6 style="font-size: 50px; padding-top: 60px;">Tentang Saya</h6>
+            <h6>Mengenal Lebih Dekat</h6>
+            </div>
+            <h3>
+                Halo! Saya Dika, seorang Frontend Web Developer yang bersemangat dalam menciptakan pengalaman web yang menarik dan responsif. Dengan keahlian dalam HTML, CSS, dan JavaScript, saya fokus pada pengembangan antarmuka pengguna yang intuitif dan estetis. Saya senang menjelajahi tren desain terbaru dan selalu berusaha untuk meningkatkan keterampilan saya. Mari kita bangun web yang luar biasa bersama!
+            </h3>
+        </div>
+        <h4>Tech Stack</h4>
+        <div id="Skil">
+            <div class="kotak">
+            <p class="emot">👨🏼‍💻</p>
+            <p>HTML</p>
+            <p>Memahami struktur dasar halaman web dan lebih ineraktif</p>
+            </div>
+            <div class="kotak">
+            <p class="emot">✏️</p>
+            <p>CSS</p>
+            <p>Menguasai styling dan layout untuk membuat tampilan web lebih menarik</p>
+            </div>
+            <div class="kotak">
+            <p class="emot">💻</p>
+            <p>Javascript</p>
+            <p>Menguasai bahasa pemrograman untuk membuat web lebih interaktif</p>
+            </div>
+            <div class="kotak">
+            <p class="emot">📁</p>
+            <p>Projek</p>
+            <p>Memiliki pengalaman dalam mengerjakan projek-projek web yang menarik, seperti:</p>
+            </div>
+        </div>
+        </article>
+            <div id="Projek">
+                <div class="gambar2">
+                <img src="Projek1.png" alt="Projek 1" class="gambar">
+                <a href="https://dkazk720.github.io/Website-Profil/">Link Projek 1</a>
+            </div>
+                <br>
+                <div class="gambar2">
+                <img src="Projek2.png" alt="Projek 2" class="gambar">
+                <a href="https://dkazk720.github.io/Website-Kelas/">Link Projek 2</a>
+                </div>
+            </div>
+        </article>
+        <footer id="Kirim">
+            <div class="deh">
+        <h5>Contact Me</h5>
+            <p style="font-size: 30px; text-align: justify; margin-top: -40px;">Hubungi saya jika Anda ada keperluan untuk saya!</p>
+            </div>
+            <form action="kirim.php" method="POST">
+                <div id="Kontak">
+                    <div class="grup-input">
+                        <label class="teks-input">Nama: </label>
+                        <input type="text" name="Username" placeholder="Nama Anda" class="input-isi">
+                    </div>
+
+                    <div class="grup-input">
+                        <label class="teks-input">Email: </label>
+                        <input type="email" name="Email" placeholder="Email Anda" class="input-isi">
+                    </div>
+
+                    <div class="grup-input">
+                        <label class="teks-input">Pesan: </label>
+                        <textarea name="Pesan" placeholder="Pesan Anda" class="input-pesan"></textarea>
+                    </div>
+
+                    <input type="submit" name="kirim" value="Kirim" class="tombol-kirim">
+                </div>            
+            </form>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
